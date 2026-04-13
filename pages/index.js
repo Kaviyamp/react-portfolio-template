@@ -275,7 +275,7 @@ export default function Home() {
         {/* ── PUBLICATION ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Academic</p>
-          <h2 className="section-heading">Published Research.</h2>
+          <h2 className="section-heading">Published Research</h2>
           {data.publications.map((pub) => (
             <div key={pub.id} className="pub-card laptop:w-3/4">
               <p className="pub-title">📄 {pub.title}</p>
@@ -368,7 +368,6 @@ export default function Home() {
         {/* ── CONTACT ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Get in Touch</p>
-          <h2 className="section-heading">Contact</h2>
           <div className="laptop:w-2/5">
             <a href={`mailto:${data.contact.email}`} className="contact-item">
               <span style={{ fontSize: "1.2rem" }}>✉️</span>
