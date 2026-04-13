@@ -164,7 +164,7 @@
       "title": "Smart Contract Vulnerability Detector",
       "description": "AI-powered auditing tool combining Google Gemini LLM + static analysis to detect critical Solidity vulnerabilities.",
       "imageSrc": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/Kaviyamp"
+    
     },
     {
       "id": "2",
