@@ -160,7 +160,7 @@ export default function Home() {
         {/* ── WHO AM I ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0" ref={aboutRef}>
           <p className="section-label">Get to Know Me</p>
-          <h2 className="section-heading">Who Am I.</h2>
+          <h2 className="section-heading">WHO AM I</h2>
 
           <div className="laptop:w-4/5">
             <div className="whoami-block">
@@ -183,7 +183,7 @@ export default function Home() {
         {/* ── SECURITY MINDSET ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">How I Think</p>
-          <h2 className="section-heading">Security Mindset.</h2>
+          <h2 className="section-heading">SECURITY MINDSET</h2>
           <div className="grid grid-cols-1 laptop:grid-cols-3 gap-5">
             {data.securityMindset.map((item) => (
               <div key={item.id} className="mindset-card">
@@ -199,7 +199,7 @@ export default function Home() {
         {/* ── EXPERIENCE ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0" ref={workRef}>
           <p className="section-label">Work History</p>
-          <h2 className="section-heading">Experience.</h2>
+          <h2 className="section-heading">EXPERIENCE</h2>
           {data.experiences.map((exp) => (
             <div key={exp.id} className="exp-card">
               <div className="flex flex-wrap justify-between items-start mb-3">
@@ -223,7 +223,7 @@ export default function Home() {
         {/* ── MASTERS PROJECTS ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Master of Cyber Security — University of Adelaide</p>
-          <h2 className="section-heading">Cybersecurity Projects & Research.</h2>
+          <h2 className="section-heading">Cybersecurity Projects & Research</h2>
           <div className="grid grid-cols-1 tablet:grid-cols-2 gap-5">
             {data.mastersProjects.map((proj) => (
               <div key={proj.id} className="proj-card">
@@ -249,8 +249,8 @@ export default function Home() {
 
         {/* ── UNDERGRAD PROJECTS ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
-          <p className="section-label">Bachelor of Electronics & Communication Engineering — Saranathan College</p>
-          <h2 className="section-heading">Undergraduate Projects.</h2>
+          <p className="section-label">Bachelor of Electronics & Communication Engineering </p>
+          <h2 className="section-heading">Undergraduate Projects</h2>
           <div className="grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.undergradProjects.map((proj) => (
               <div key={proj.id} className="ugrad-card">
@@ -290,7 +290,7 @@ export default function Home() {
         {/* ── EXPERTISE ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">What I Do</p>
-          <h2 className="section-heading">Expertise.</h2>
+          <h2 className="section-heading">EXPERTISE</h2>
           <div className="grid grid-cols-1 laptop:grid-cols-2 gap-5">
             {data.services.map((service, index) => (
               <div key={index} className="card">
@@ -306,7 +306,7 @@ export default function Home() {
         {/* ── CERTIFICATIONS ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Credentials</p>
-          <h2 className="section-heading">Certifications.</h2>
+          <h2 className="section-heading">CERTIFICATIONS</h2>
           <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-4">
             {data.certifications.map((cert) => (
               <div key={cert.id} className="cert-card">
@@ -325,7 +325,7 @@ export default function Home() {
         {/* ── SKILLS ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Capabilities</p>
-          <h2 className="section-heading">Technical Skills.</h2>
+          <h2 className="section-heading">TECHNICAL SKILLS</h2>
 
           <p className="skill-category-label">Cyber Skills</p>
           <div>{data.skills.cyber.map((s) => <span key={s} className="skill-pill">{s}</span>)}</div>
@@ -347,11 +347,28 @@ export default function Home() {
         </div>
 
         <hr className="section-divider" />
+<hr className="section-divider" />
 
+{/* ── SOFT SKILLS ── */}
+{data.softSkills && (
+  <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
+    <p className="section-label">What I Bring to a Team</p>
+    <h2 className="section-heading">Beyond soft skills</h2>
+    <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-5">
+      {data.softSkills.map((skill) => (
+        <div key={skill.id} className="mindset-card">
+          <p style={{ fontSize: "1.75rem", marginBottom: "0.75rem" }}>{skill.icon}</p>
+          <p className="mindset-title">{skill.title}</p>
+          <p className="mindset-desc">{skill.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
         {/* ── CONTACT ── */}
         <div className="mt-10 laptop:mt-16 p-2 laptop:p-0">
           <p className="section-label">Get in Touch</p>
-          <h2 className="section-heading">Contact.</h2>
+          <h2 className="section-heading">Contact</h2>
           <div className="laptop:w-2/5">
             <a href={`mailto:${data.contact.email}`} className="contact-item">
               <span style={{ fontSize: "1.2rem" }}>✉️</span>

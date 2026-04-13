@@ -268,4 +268,37 @@
     "frameworks": ["NIST CSF 2.0", "ISO 27001:2022", "ACSC Essential Eight", "MERN Stack"],
     "others": ["Splunk", "Power BI", "Streamlit", "Agile", "Linux", "Windows"]
   }
+,
+"softSkills": [
+  {
+    "id": "1",
+    "icon": "🌏",
+    "title": "Cultural Awareness",
+    "description": "Having lived and worked across India and Australia, I adapt quickly to multicultural teams and respect diverse perspectives. My experience in cross-cultural environments has strengthened my ability to build inclusive working relationships and communicate effectively across cultures."
+  },
+  {
+    "id": "2",
+    "icon": "🤝",
+    "title": "Collaborative Team Player",
+    "description": "I actively contribute to team goals by sharing ideas, supporting peers, and maintaining clear communication. In fast-paced environments, I ensure coordination and reliability — helping teams stay aligned and deliver results efficiently."
+  },
+  {
+    "id": "3",
+    "icon": "💬",
+    "title": "Effective Communication",
+    "description": "I communicate technical concepts in a clear and practical way, making it easier for both technical and non-technical stakeholders to understand risks, controls, and solutions — a critical skill in GRC and security operations."
+  },
+  {
+    "id": "4",
+    "icon": "🔄",
+    "title": "Adaptability & Work Ethic",
+    "description": "From hands-on roles in fast-paced workplaces to complex technical project environments, I bring a proactive attitude, reliability, and the ability to quickly learn and adjust to new challenges and shifting priorities."
+  },
+  {
+    "id": "5",
+    "icon": "🛡️",
+    "title": "GRC Mindset in Team Environments",
+    "description": "I understand that governance, risk, and compliance are not just technical — they require collaboration, communication, and alignment across teams. I focus on bridging the gap between technical controls and real business needs."
+  }
+]
 }
