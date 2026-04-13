@@ -79,9 +79,9 @@
   "mastersProjects": [
     {
       "id": "1",
-      "title": "Smart Contract Vulnerability Detector using LLM",
+      "title": "Research : Smart Contract Vulnerability Detector using LLM",
       "dates": "Aug 2025 – Dec 2025",
-      "description": "Research Capstone Project: Explored the integration of AI in cybersecurity to enhance threat detection and strengthen GRC through intelligent risk monitoring.Built a hybrid smart contract auditing system combining regex-based static analysis with Google Gemini LLM to detect critical Solidity vulnerabilities. Developed a 5-stage JSON repair pipeline and Streamlit dashboard for real-time analysis and downloadable audit reports.",
+      "description": "Explored the integration of AI in cybersecurity to enhance threat detection and strengthen GRC through intelligent risk monitoring. Built a hybrid smart contract auditing system combining regex-based static analysis with Google Gemini LLM to detect critical Solidity vulnerabilities. Developed a 5-stage JSON repair pipeline and Streamlit dashboard for real-time analysis and downloadable audit reports.",
       "tags": ["LLM", "Python", "Streamlit", "Solidity", "TF-IDF", "Random Forest"],
       "imageSrc": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=400&q=60",
 
